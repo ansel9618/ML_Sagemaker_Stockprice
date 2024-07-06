@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "a889da29-c3f2-46b6-84cc-7a40c11dd1f0",
+		"name": "api_lambda_sagemaker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36539958"
+	},
+	"item": [
+		{
+			"name": "api_lambda_sagemaker",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\":\r\n         [[1.33520004e+02, 1.33610001e+02, 1.26760002e+02, 1.29410004e+02,1.43301900e+08],\r\n         [1.33520004e+02, 1.33610001e+02, 1.26760002e+02, 1.29410004e+02,1.43301900e+08],\r\n         [1.33520004e+02, 1.33610001e+02, 1.26760002e+02, 1.29410004e+02,1.43301900e+08]\r\n         ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jzo2cd1po1.execute-api.us-east-1.amazonaws.com/xgboostmodel",
+					"protocol": "https",
+					"host": [
+						"jzo2cd1po1",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"xgboostmodel"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
