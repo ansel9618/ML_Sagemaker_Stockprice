@@ -1,6 +1,8 @@
 # ML_sagemaker_stockprice
 I have used machine learning with the XGBoost algorithm to predict stock prices. Here's a look into our architecture:
 
+![Architecture](https://github.com/ansel9618/ML_sagemaker_stockprice/blob/main/architecture.png)
+
 1. **User Interaction**: Clients send REST-style requests to an API Gateway endpoint-Postman.
 2. **API Gateway**: The gateway triggers a Lambda function.
 3. **Lambda Function**: The function formats the request for the Amazon SageMaker endpoint, which performs the stock price prediction.
