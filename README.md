@@ -9,4 +9,7 @@ I have used machine learning with the XGBoost algorithm to predict stock prices.
 4. **SageMaker Endpoint**: Receives the request and returns the prediction.
 5. **Response Handling**: The Lambda function processes the prediction and responds back to the client with a JSON response via API Gateway and sends an email notification through SNS.
 
+# Notification
+![](https://github.com/ansel9618/ML_Sagemaker_Stockprice/blob/main/email_notiofication.png)
+
 This integration ensures real-time, accurate predictions and instant notifications for users. The core objective is to create an ML-powered REST API using Amazon API Gateway and Amazon SageMaker,lambda,SNS enabling day-ahead stock price predictions.
